@@ -12,15 +12,19 @@
           <br />
           <input type="text" class="form-control" />
         </div>
-        <div class="col-12 mt-3 ps-5 pe-5">
+        <div class="col-12 mt-3 ps-5 pe-5 mb-3">
           <label for="" class="mb-3 staywell-purple">Usuario</label>
           <br />
           <input type="text" class="form-control" />
         </div>
         <div class="col-12 mt-3 ps-5 pe-5">
-          <button class="btn btn-primary form-control mb-2">Entrar</button>
-          <br>
-          <button class="btn btn-outline-secondary form-control">Crear cuenta</button>
+          <button class="btn btn-purple form-control mb-2">Entrar</button>
+          <br />
+          <a
+            href="./login/register"
+            class="btn btn-outline-secondary form-control"
+            >¿Aun no tienes cuenta?</a
+          >
         </div>
       </div>
     </div>
@@ -40,9 +44,13 @@
     color: #7211f5;
   }
 
+  .btn-purple {
+    color: white;
+    background-color: #7211f5;
+  }
 
-  
-
-
-  
+  .btn-purple:hover {
+    border-color: #7211f5;
+    color: #7211f5;
+  }
 </style>

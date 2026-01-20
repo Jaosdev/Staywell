@@ -12,7 +12,10 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
+		"@capacitor/cli": "^8.0.1",
+		"@capacitor/core": "^8.0.1",
 		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.49.1",
 		"@sveltejs/vite-plugin-svelte": "^6.2.1",
 		"svelte": "^5.45.6",
@@ -21,6 +24,7 @@
 		"vite": "^7.2.6"
 	},
 	"dependencies": {
+		"@capacitor/android": "^8.0.1",
 		"bootstrap": "^5.3.8"
 	}
 }
